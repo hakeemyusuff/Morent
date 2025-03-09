@@ -43,8 +43,7 @@ INSTALLED_APPS = [
     "rest_framework.authtoken",
     "rest_framework_simplejwt.token_blacklist",
     "djoser",
-    
-
+    "django_filters",
     # my apps
     "car_rental.apps.CarRentalConfig",
 ]
@@ -147,6 +146,10 @@ REST_FRAMEWORK = {
         # "rest_framework.authentication.TokenAuthentication",
         "rest_framework_simplejwt.authentication.JWTAuthentication",
     ],
+    "DEFAULT_FILTER_BACKENDS": [
+        "django_filters.rest_framework.DjangoFilterBackend",
+        "rest_framework.filters.SearchFilter",
+    ],
 }
 
 DJOSER = {
@@ -168,8 +171,7 @@ SIMPLE_JWT = {
     "REFRESH_TOKEN_LIFETIME": timedelta(days=7),
     "ROTATE_REFRESH_TOKEN": True,
     "BLACKLIST_AFTER_ROTATION": True,
-    "AUTH_BEARER_TYPES": ("Bearer", ),
-    
+    "AUTH_BEARER_TYPES": ("Bearer",),
 }
 
 EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"

@@ -73,13 +73,13 @@ class Car(models.Model):
     year = models.IntegerField()
     color = models.CharField(max_length=20)
     description = models.TextField()
-    car_type = models.CharField(max_length=10)
-    seat_capacity = models.IntegerField()
+    car_type = models.CharField(max_length=10, db_index=True)
+    seat_capacity = models.IntegerField(db_index=True)
     transmission_type = models.CharField(
         max_length=5, choices=[("MAN", "Manual"), ("AUTO", "Automatic")]
     )
     fuel_tank_capacity = models.IntegerField()
-    price_per_day = models.DecimalField(max_digits=10, decimal_places=2)
+    price_per_day = models.DecimalField(max_digits=10, decimal_places=2, db_index=True)
     is_available = models.BooleanField()
 
     def __str__(self):

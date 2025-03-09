@@ -1,8 +1,8 @@
 from .serializers import *
 from .models import *
-from rest_framework import generics
+from rest_framework import generics, filters
 from .permissions import *
-from rest_framework.permissions import IsAuthenticated
+from .filters import PriceFilter
 
 
 class CarList(generics.ListCreateAPIView):
@@ -10,6 +10,12 @@ class CarList(generics.ListCreateAPIView):
     serializer_class = CarSerializer
     permission_classes = [
         IsAdminorReadOnly,
+    ]
+    filterset_class = PriceFilter
+    search_fields = [
+        "brand",
+        "model",
+        "car_type",
     ]
 
 
@@ -58,13 +64,13 @@ class ReviewDetail(generics.RetrieveUpdateDestroyAPIView):
 class BookingList(generics.ListCreateAPIView):
     queryset = Booking.objects.all()
     serializer_class = BookingSerializer
-    
+
     def get_queryset(self):
         user = self.request.user
-        
+
         if user.role == "admin":
             return Booking.objects.all()
-        
+
         return Booking.objects.filter(user=user)
 
 
