@@ -19,27 +19,17 @@ from django.contrib import admin
 from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
-from rest_framework_simplejwt.views import (
-    TokenObtainPairView,
-    TokenRefreshView,
-    TokenBlacklistView,
-)
+from rest_framework_simplejwt.views import TokenBlacklistView
+from drf_spectacular.views import SpectacularAPIView, SpectacularSwaggerView
+
 
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("morent/v1/", include("car_rental.urls")),
     path("morent/v1/auth/", include("djoser.urls")),
     path("morent/v1/auth/", include("djoser.urls.jwt")),
-    # path(
-    #     "morent/v1/auth/token/",
-    #     TokenObtainPairView.as_view(),
-    #     name="token_obtain_pair",
-    # ),
-    # path(
-    #     "morent/v1/auth/token/refresh/",
-    #     TokenRefreshView.as_view(),
-    #     name="token_refresh",
-    # ),
+    path("morent/v1/schema/",SpectacularAPIView.as_view(), name="schema"),
+    path("morent/v1/swagger-ui/", SpectacularSwaggerView.as_view(url_name="schema"), name="swagger-ui")
 ]
 
 urlpatterns += [

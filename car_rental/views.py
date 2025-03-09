@@ -3,6 +3,7 @@ from .models import *
 from rest_framework import generics, filters
 from .permissions import *
 from .filters import PriceFilter
+from django.shortcuts import render
 
 
 class CarList(generics.ListCreateAPIView):
@@ -78,3 +79,6 @@ class BookingDetail(generics.RetrieveUpdateDestroyAPIView):
     queryset = Booking.objects.all()
     serializer_class = BookingSerializer
     permission_classes = []
+
+def redoc_view(request):
+    return render(request, "redoc.html")

@@ -1,0 +1,1894 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2025-03-08T09:42:28.061Z",
+    "user": 2,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2025-03-08T09:44:50.562Z",
+    "user": 2,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "hakeemyusuff21@gmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2025-03-08T10:03:44.501Z",
+    "user": 2,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "hakeemyusuff19@gmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2025-03-09T01:32:50.017Z",
+    "user": 2,
+    "content_type": 9,
+    "object_id": "6",
+    "object_repr": "ysfold@qa.test",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2025-03-09T01:32:50.017Z",
+    "user": 2,
+    "content_type": 9,
+    "object_id": "5",
+    "object_repr": "ysfnew@qa.test",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2025-03-09T01:32:50.017Z",
+    "user": 2,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "ysf@qa.test",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2025-03-09T01:35:12.431Z",
+    "user": 2,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "Rolls-Royce Dawn 2015",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2025-03-09T02:23:58.455Z",
+    "user": 2,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "hakeemyusuff19@gmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Role\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2025-03-09T02:24:41.965Z",
+    "user": 2,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "hakeemyusuff21@gmail.com",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2025-03-09T02:39:41.512Z",
+    "user": 2,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "hakeemyusuff21@gmail.com",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2025-03-09T07:08:29.420Z",
+    "user": 2,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Nissan GT - R 2007",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2025-03-09T07:15:04.014Z",
+    "user": 2,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "hakeemyusuff19@gmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Profile pic\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2025-03-09T13:20:47.420Z",
+    "user": 2,
+    "content_type": 11,
+    "object_id": "2",
+    "object_repr": "Nissan GT - R 2007",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2025-03-09T13:23:04.833Z",
+    "user": 2,
+    "content_type": 11,
+    "object_id": "3",
+    "object_repr": "Toyota Camry 2023",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2025-03-09T13:23:16.487Z",
+    "user": 2,
+    "content_type": 11,
+    "object_id": "4",
+    "object_repr": "Toyota Camry 2023",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2025-03-09T13:29:27.813Z",
+    "user": 2,
+    "content_type": 11,
+    "object_id": "5",
+    "object_repr": "Honda Civic 2022",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2025-03-09T13:29:37.184Z",
+    "user": 2,
+    "content_type": 11,
+    "object_id": "5",
+    "object_repr": "Honda Civic 2022",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2025-03-09T13:29:59.553Z",
+    "user": 2,
+    "content_type": 11,
+    "object_id": "6",
+    "object_repr": "Honda Civic 2022",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2025-03-09T13:30:11.577Z",
+    "user": 2,
+    "content_type": 11,
+    "object_id": "5",
+    "object_repr": "Honda Civic 2022",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2025-03-09T13:32:07.326Z",
+    "user": 2,
+    "content_type": 11,
+    "object_id": "7",
+    "object_repr": "Ford F-150 2023",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2025-03-09T13:32:22.407Z",
+    "user": 2,
+    "content_type": 11,
+    "object_id": "8",
+    "object_repr": "Ford F-150 2023",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2025-03-09T16:32:10.458Z",
+    "user": 2,
+    "content_type": 11,
+    "object_id": "9",
+    "object_repr": "Chevrolet Malibu 2021",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2025-03-09T16:33:10.511Z",
+    "user": 2,
+    "content_type": 11,
+    "object_id": "10",
+    "object_repr": "Nissan Rogue 2022",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2025-03-09T16:34:46.929Z",
+    "user": 2,
+    "content_type": 11,
+    "object_id": "11",
+    "object_repr": "BMW 3 Series 2023",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2025-03-09T16:35:45.488Z",
+    "user": 2,
+    "content_type": 11,
+    "object_id": "12",
+    "object_repr": "Mercedes-Benz GLA 2022",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2025-03-09T16:36:41.114Z",
+    "user": 2,
+    "content_type": 11,
+    "object_id": "13",
+    "object_repr": "Jeep Wrangler 2023",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2025-03-09T16:37:23.148Z",
+    "user": 2,
+    "content_type": 11,
+    "object_id": "14",
+    "object_repr": "Audi A4 2021",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2025-03-09T16:38:34.920Z",
+    "user": 2,
+    "content_type": 11,
+    "object_id": "15",
+    "object_repr": "Kia Sorento 2022",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2025-03-09T16:40:16.575Z",
+    "user": 2,
+    "content_type": 11,
+    "object_id": "16",
+    "object_repr": "Volkswagen Golf 2023",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2025-03-09T16:41:53.858Z",
+    "user": 2,
+    "content_type": 11,
+    "object_id": "17",
+    "object_repr": "Hyundai Elantra 2021",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2025-03-09T16:43:00.758Z",
+    "user": 2,
+    "content_type": 11,
+    "object_id": "18",
+    "object_repr": "Suzuki Vitara 2019",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2025-03-09T16:44:29.494Z",
+    "user": 2,
+    "content_type": 11,
+    "object_id": "19",
+    "object_repr": "Hyundai Santa Fe 2021",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2025-03-09T16:45:27.848Z",
+    "user": 2,
+    "content_type": 11,
+    "object_id": "20",
+    "object_repr": "Volkswagen Touareg 2020",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2025-03-09T16:46:23.961Z",
+    "user": 2,
+    "content_type": 11,
+    "object_id": "21",
+    "object_repr": "Suzuki SX4 S-Cross 2019",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2025-03-09T16:47:17.623Z",
+    "user": 2,
+    "content_type": 11,
+    "object_id": "22",
+    "object_repr": "MG ZS 2021",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2025-03-09T16:48:10.257Z",
+    "user": 2,
+    "content_type": 11,
+    "object_id": "23",
+    "object_repr": "MG HS 2022",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2025-03-09T16:49:26.383Z",
+    "user": 2,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Folarin books Ford F-150 2023",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2025-03-09T16:49:54.898Z",
+    "user": 2,
+    "content_type": 12,
+    "object_id": "2",
+    "object_repr": "Folarin added a review on Ford F-150 2023",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 4,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 4,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 4,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 4,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 5,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 5,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 5,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 5,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add Token",
+    "content_type": 6,
+    "codename": "add_token"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change Token",
+    "content_type": 6,
+    "codename": "change_token"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete Token",
+    "content_type": 6,
+    "codename": "delete_token"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view Token",
+    "content_type": 6,
+    "codename": "view_token"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add Token",
+    "content_type": 7,
+    "codename": "add_tokenproxy"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change Token",
+    "content_type": 7,
+    "codename": "change_tokenproxy"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete Token",
+    "content_type": 7,
+    "codename": "delete_tokenproxy"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view Token",
+    "content_type": 7,
+    "codename": "view_tokenproxy"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add car",
+    "content_type": 8,
+    "codename": "add_car"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change car",
+    "content_type": 8,
+    "codename": "change_car"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete car",
+    "content_type": 8,
+    "codename": "delete_car"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view car",
+    "content_type": 8,
+    "codename": "view_car"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 9,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 9,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 9,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 9,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add booking",
+    "content_type": 10,
+    "codename": "add_booking"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change booking",
+    "content_type": 10,
+    "codename": "change_booking"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete booking",
+    "content_type": 10,
+    "codename": "delete_booking"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view booking",
+    "content_type": 10,
+    "codename": "view_booking"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add car image",
+    "content_type": 11,
+    "codename": "add_carimage"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change car image",
+    "content_type": 11,
+    "codename": "change_carimage"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete car image",
+    "content_type": 11,
+    "codename": "delete_carimage"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view car image",
+    "content_type": 11,
+    "codename": "view_carimage"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add review",
+    "content_type": 12,
+    "codename": "add_review"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change review",
+    "content_type": 12,
+    "codename": "change_review"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete review",
+    "content_type": 12,
+    "codename": "delete_review"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view review",
+    "content_type": 12,
+    "codename": "view_review"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 49,
+  "fields": {
+    "name": "Can add blacklisted token",
+    "content_type": 13,
+    "codename": "add_blacklistedtoken"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 50,
+  "fields": {
+    "name": "Can change blacklisted token",
+    "content_type": 13,
+    "codename": "change_blacklistedtoken"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 51,
+  "fields": {
+    "name": "Can delete blacklisted token",
+    "content_type": 13,
+    "codename": "delete_blacklistedtoken"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 52,
+  "fields": {
+    "name": "Can view blacklisted token",
+    "content_type": 13,
+    "codename": "view_blacklistedtoken"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 53,
+  "fields": {
+    "name": "Can add outstanding token",
+    "content_type": 14,
+    "codename": "add_outstandingtoken"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 54,
+  "fields": {
+    "name": "Can change outstanding token",
+    "content_type": 14,
+    "codename": "change_outstandingtoken"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 55,
+  "fields": {
+    "name": "Can delete outstanding token",
+    "content_type": 14,
+    "codename": "delete_outstandingtoken"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 56,
+  "fields": {
+    "name": "Can view outstanding token",
+    "content_type": 14,
+    "codename": "view_outstandingtoken"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "authtoken",
+    "model": "token"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "authtoken",
+    "model": "tokenproxy"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "car_rental",
+    "model": "car"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "car_rental",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "car_rental",
+    "model": "booking"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "car_rental",
+    "model": "carimage"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "car_rental",
+    "model": "review"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 13,
+  "fields": {
+    "app_label": "token_blacklist",
+    "model": "blacklistedtoken"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 14,
+  "fields": {
+    "app_label": "token_blacklist",
+    "model": "outstandingtoken"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "2j5r93yj4xvooedixubjgvbbrzjhguqn",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSEwWB4u3fsNZJgBqRqalHZl_HfbpAvd3nPOfYuI61Lj2vMcRxYXAeL0uyWkZ2474Ae2-yRpass8Jrkr8qBd3ibOr-vh_h1U7HWrrdcK9JCyKUxIOiAmMo5LYTDODRywMGu2AUip4FmD9mcLmZLdSiM-X_6UOB8:1tr6KB:aLzLYRgU5wqeEeP74auWC0LCQTR18FForHUF9ssJY6U",
+    "expire_date": "2025-03-23T02:23:31.667Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 1,
+  "fields": {
+    "user": 2,
+    "jti": "237e06d6e77c40f181f3bbe5d0ab9ae0",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0MjA4NjQxMSwiaWF0IjoxNzQxNDgxNjExLCJqdGkiOiIyMzdlMDZkNmU3N2M0MGYxODFmM2JiZTVkMGFiOWFlMCIsInVzZXJfaWQiOjJ9.q4fb_gaWoDZnFdJme-xMBiGAK9eESYQaOr5Vu7eQ80A",
+    "created_at": "2025-03-09T00:53:31.018Z",
+    "expires_at": "2025-03-16T00:53:31Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 2,
+  "fields": {
+    "user": 2,
+    "jti": "1a54a35ac88048058a201476805ba0ea",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0MjA4NjQyOSwiaWF0IjoxNzQxNDgxNjI5LCJqdGkiOiIxYTU0YTM1YWM4ODA0ODA1OGEyMDE0NzY4MDViYTBlYSIsInVzZXJfaWQiOjJ9.ikH7gFjHZPy58QEVTwIx6c9AUR_EuG95TC_JW2aqilY",
+    "created_at": "2025-03-09T00:53:49.175Z",
+    "expires_at": "2025-03-16T00:53:49Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 3,
+  "fields": {
+    "user": 2,
+    "jti": "0f4848ecd7de425aa8ea98e688067eab",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0MjA4Njg0MywiaWF0IjoxNzQxNDgyMDQzLCJqdGkiOiIwZjQ4NDhlY2Q3ZGU0MjVhYThlYTk4ZTY4ODA2N2VhYiIsInVzZXJfaWQiOjJ9.TK_HFrFAf2lCY9JgMFprI2S65jlIIMHyWNGs9IJvffU",
+    "created_at": "2025-03-09T01:00:43.511Z",
+    "expires_at": "2025-03-16T01:00:43Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 4,
+  "fields": {
+    "user": 2,
+    "jti": "b16f3d0626e74984823c612b8378e704",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0MjA4NzAzMywiaWF0IjoxNzQxNDgyMjMzLCJqdGkiOiJiMTZmM2QwNjI2ZTc0OTg0ODIzYzYxMmI4Mzc4ZTcwNCIsInVzZXJfaWQiOjJ9.FaFbbSa9-pSmtljp1QNB2Gj2JBbPwXSUH42t27kSvwg",
+    "created_at": "2025-03-09T01:03:53.643Z",
+    "expires_at": "2025-03-16T01:03:53Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 5,
+  "fields": {
+    "user": 2,
+    "jti": "ae6d4309a854451ba779a916f8a4feba",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0MjA4NzA2NCwiaWF0IjoxNzQxNDgyMjY0LCJqdGkiOiJhZTZkNDMwOWE4NTQ0NTFiYTc3OWE5MTZmOGE0ZmViYSIsInVzZXJfaWQiOjJ9.cgUsPc2jFMcHhhsJESEcz1H6kOeT2ltWCfT53Xilvh4",
+    "created_at": "2025-03-09T01:04:24.930Z",
+    "expires_at": "2025-03-16T01:04:24Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 6,
+  "fields": {
+    "user": 2,
+    "jti": "3698e095e76843ac896d9acddcb4052c",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0MjA4NzA5OCwiaWF0IjoxNzQxNDgyMjk4LCJqdGkiOiIzNjk4ZTA5NWU3Njg0M2FjODk2ZDlhY2RkY2I0MDUyYyIsInVzZXJfaWQiOjJ9.IgTGwDg0bz5H_8I5irmyLD6RJxqAMeV8f4p1KEDx6ps",
+    "created_at": "2025-03-09T01:04:58.349Z",
+    "expires_at": "2025-03-16T01:04:58Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 7,
+  "fields": {
+    "user": 2,
+    "jti": "10a0df8e7e99485686fccef5eb9426a4",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0MjA4NzIxNSwiaWF0IjoxNzQxNDgyNDE1LCJqdGkiOiIxMGEwZGY4ZTdlOTk0ODU2ODZmY2NlZjVlYjk0MjZhNCIsInVzZXJfaWQiOjJ9._wSC1Sa-dK0QMWjtmnIPTEIOV0b0-RKbF1-NgA7kBHg",
+    "created_at": "2025-03-09T01:06:55.518Z",
+    "expires_at": "2025-03-16T01:06:55Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 8,
+  "fields": {
+    "user": 2,
+    "jti": "1f01b1f7d11b45d99283f95df49389e9",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0MjA4Nzk5NiwiaWF0IjoxNzQxNDgzMTk2LCJqdGkiOiIxZjAxYjFmN2QxMWI0NWQ5OTI4M2Y5NWRmNDkzODllOSIsInVzZXJfaWQiOjJ9.BivbG_Arn-FgSaVgNf6bYmqjCLLP5sZuiO7P-YlTJW4",
+    "created_at": "2025-03-09T01:19:56.048Z",
+    "expires_at": "2025-03-16T01:19:56Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 9,
+  "fields": {
+    "user": 2,
+    "jti": "5fd337b191bc4ae1905d02428a7659d7",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0MjA4ODA4OCwiaWF0IjoxNzQxNDgzMjg4LCJqdGkiOiI1ZmQzMzdiMTkxYmM0YWUxOTA1ZDAyNDI4YTc2NTlkNyIsInVzZXJfaWQiOjJ9.EUxQlFz0EUstKRrLkifBQdsTDDDUUY2wXqHjEH2G0AM",
+    "created_at": "2025-03-09T01:21:28.257Z",
+    "expires_at": "2025-03-16T01:21:28Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 10,
+  "fields": {
+    "user": null,
+    "jti": "fbce913b231141e2b4604fba6b22b1ba",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0MjA4OTMzMiwiaWF0IjoxNzQxNDg0NTMyLCJqdGkiOiJmYmNlOTEzYjIzMTE0MWUyYjQ2MDRmYmE2YjIyYjFiYSIsInVzZXJfaWQiOjN9.G5NFlRgUeI0iSgV2UOj9iJWXGQK5teaTmQmSu_HXZT0",
+    "created_at": "2025-03-09T01:42:12.206Z",
+    "expires_at": "2025-03-16T01:42:12Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 11,
+  "fields": {
+    "user": 2,
+    "jti": "1ec9c303b8f8438d8b22d4e0698098f4",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0MjA4OTYxMiwiaWF0IjoxNzQxNDg0ODEyLCJqdGkiOiIxZWM5YzMwM2I4Zjg0MzhkOGIyMmQ0ZTA2OTgwOThmNCIsInVzZXJfaWQiOjJ9.IgTlbQl80Szp6v3NlOwOfDUluB13MZs8w5mCwcwfNyA",
+    "created_at": "2025-03-09T01:46:52.243Z",
+    "expires_at": "2025-03-16T01:46:52Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 12,
+  "fields": {
+    "user": 2,
+    "jti": "11524027c7c54d899ee5d3a55ce9705c",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0MjA5MjE2MiwiaWF0IjoxNzQxNDg3MzYyLCJqdGkiOiIxMTUyNDAyN2M3YzU0ZDg5OWVlNWQzYTU1Y2U5NzA1YyIsInVzZXJfaWQiOjJ9.i6ezNkKEB-PSLoOhYYDf_F4oQBQvVTZx8_2jVrtyO04",
+    "created_at": "2025-03-09T02:29:22.811Z",
+    "expires_at": "2025-03-16T02:29:22Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 13,
+  "fields": {
+    "user": 4,
+    "jti": "85cb8e70efe143659da4fed303e5f094",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0MjA5MjgyMywiaWF0IjoxNzQxNDg4MDIzLCJqdGkiOiI4NWNiOGU3MGVmZTE0MzY1OWRhNGZlZDMwM2U1ZjA5NCIsInVzZXJfaWQiOjR9.io1SIDdweAwp83HEWlCn-0Cv0KPwDxOAn-8eZ4RiMQU",
+    "created_at": "2025-03-09T02:40:23.967Z",
+    "expires_at": "2025-03-16T02:40:23Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 14,
+  "fields": {
+    "user": 2,
+    "jti": "d405747f95b14c6a9dc13cf3504cfab9",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0MjEwNjk5OCwiaWF0IjoxNzQxNTAyMTk4LCJqdGkiOiJkNDA1NzQ3Zjk1YjE0YzZhOWRjMTNjZjM1MDRjZmFiOSIsInVzZXJfaWQiOjJ9.AHqKW6nrZpcBibTo3srVbQrG3p_NmKM15XGXdNcG9HM",
+    "created_at": "2025-03-09T06:36:38.557Z",
+    "expires_at": "2025-03-16T06:36:38Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 15,
+  "fields": {
+    "user": 4,
+    "jti": "d33d409f6343408686443db72944a232",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0MjExMDgzNywiaWF0IjoxNzQxNTA2MDM3LCJqdGkiOiJkMzNkNDA5ZjYzNDM0MDg2ODY0NDNkYjcyOTQ0YTIzMiIsInVzZXJfaWQiOjR9.hfkdQ9knMOq2eDtxq8E6niiSbYkWqTVs5YJU5Nl1sws",
+    "created_at": "2025-03-09T07:40:37.617Z",
+    "expires_at": "2025-03-16T07:40:37Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 16,
+  "fields": {
+    "user": 4,
+    "jti": "5e46a44d1fa84df79e6d8664f319fca2",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0MjExMDg4NywiaWF0IjoxNzQxNTA2MDg3LCJqdGkiOiI1ZTQ2YTQ0ZDFmYTg0ZGY3OWU2ZDg2NjRmMzE5ZmNhMiIsInVzZXJfaWQiOjR9.zy6NSxOhwYIjZgD21hFbAVqQWAET9SpzGXgkByZUOfM",
+    "created_at": "2025-03-09T07:41:27.330Z",
+    "expires_at": "2025-03-16T07:41:27Z"
+  }
+},
+{
+  "model": "token_blacklist.blacklistedtoken",
+  "pk": 1,
+  "fields": {
+    "token": 7,
+    "blacklisted_at": "2025-03-09T01:12:48.944Z"
+  }
+},
+{
+  "model": "car_rental.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$6Yt7FunChPGCnCIcbXS8VJ$tj8QmjncSS1UkDc4y6l0tIcGVB6xoQKPfbrhyewNMPI=",
+    "last_login": "2025-03-09T02:23:31Z",
+    "is_superuser": true,
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-03-08T09:37:21Z",
+    "email": "hakeemyusuff19@gmail.com",
+    "first_name": "Folarin",
+    "last_name": "Abdulhakeem",
+    "profile_pic": "Profile_pictures/user_2.jpg",
+    "job_title": "Software Developer",
+    "company": "Netflix",
+    "role": "admin",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "car_rental.user",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$aRm3gMraVYgYgELlD7cqEW$XipJMzW8jzPdLmlS/N3yOv5Me9bWiHVmR+42xrvXj/8=",
+    "last_login": null,
+    "is_superuser": false,
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-03-09T02:39:59.401Z",
+    "email": "hakeemyusuff21@gmail.com",
+    "first_name": "",
+    "last_name": "",
+    "profile_pic": "",
+    "job_title": "",
+    "company": "",
+    "role": "customer",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "car_rental.car",
+  "pk": 1,
+  "fields": {
+    "brand": "Rolls-Royce",
+    "model": "Dawn",
+    "year": 2015,
+    "color": "Blue",
+    "description": "It's a luxury convertible known for its opulence and performance.It's a luxury convertible known for its opulence and performance that offers a smooth and serene ride, combined with exceptional handling capabilities.",
+    "car_type": "Sedan",
+    "seat_capacity": 4,
+    "transmission_type": "MAN",
+    "fuel_tank_capacity": 70,
+    "price_per_day": "96.00",
+    "is_available": true
+  }
+},
+{
+  "model": "car_rental.car",
+  "pk": 2,
+  "fields": {
+    "brand": "Nissan",
+    "model": "GT - R",
+    "year": 2007,
+    "color": "Silver",
+    "description": "The Nissan GT-R, nicknamed Godzilla, is a high-performance sports car known for its powerful engine, advanced all-wheel-drive, and cutting-edge technology, delivering exceptional speed and handling",
+    "car_type": "Sport",
+    "seat_capacity": 2,
+    "transmission_type": "MAN",
+    "fuel_tank_capacity": 80,
+    "price_per_day": "100.00",
+    "is_available": true
+  }
+},
+{
+  "model": "car_rental.car",
+  "pk": 3,
+  "fields": {
+    "brand": "Toyota",
+    "model": "Camry",
+    "year": 2023,
+    "color": "White",
+    "description": "A reliable and comfortable sedan, perfect for daily commutes and long drives.",
+    "car_type": "Sedan",
+    "seat_capacity": 5,
+    "transmission_type": "AUTO",
+    "fuel_tank_capacity": 60,
+    "price_per_day": "50.00",
+    "is_available": true
+  }
+},
+{
+  "model": "car_rental.car",
+  "pk": 4,
+  "fields": {
+    "brand": "Honda",
+    "model": "Civic",
+    "year": 2022,
+    "color": "Silver",
+    "description": "A sporty and fuel-efficient compact car with modern features.",
+    "car_type": "Sedan",
+    "seat_capacity": 5,
+    "transmission_type": "AUTO",
+    "fuel_tank_capacity": 47,
+    "price_per_day": "45.00",
+    "is_available": true
+  }
+},
+{
+  "model": "car_rental.car",
+  "pk": 5,
+  "fields": {
+    "brand": "Ford",
+    "model": "F-150",
+    "year": 2023,
+    "color": "Blue",
+    "description": "A powerful and versatile pickup truck, ideal for hauling and towing.",
+    "car_type": "Truck",
+    "seat_capacity": 5,
+    "transmission_type": "AUTO",
+    "fuel_tank_capacity": 98,
+    "price_per_day": "80.00",
+    "is_available": true
+  }
+},
+{
+  "model": "car_rental.car",
+  "pk": 6,
+  "fields": {
+    "brand": "Chevrolet",
+    "model": "Malibu",
+    "year": 2021,
+    "color": "Gray",
+    "description": "A comfortable and spacious mid-size sedan with a smooth ride.",
+    "car_type": "Sedan",
+    "seat_capacity": 5,
+    "transmission_type": "AUTO",
+    "fuel_tank_capacity": 60,
+    "price_per_day": "48.00",
+    "is_available": false
+  }
+},
+{
+  "model": "car_rental.car",
+  "pk": 7,
+  "fields": {
+    "brand": "Nissan",
+    "model": "Rogue",
+    "year": 2022,
+    "color": "Red",
+    "description": "A stylish and practical SUV with ample cargo space and advanced safety features.",
+    "car_type": "SUV",
+    "seat_capacity": 5,
+    "transmission_type": "AUTO",
+    "fuel_tank_capacity": 55,
+    "price_per_day": "65.00",
+    "is_available": true
+  }
+},
+{
+  "model": "car_rental.car",
+  "pk": 8,
+  "fields": {
+    "brand": "BMW",
+    "model": "3 Series",
+    "year": 2023,
+    "color": "Black",
+    "description": "A luxurious and sporty sedan with exceptional performance and handling.",
+    "car_type": "Sedan",
+    "seat_capacity": 5,
+    "transmission_type": "AUTO",
+    "fuel_tank_capacity": 59,
+    "price_per_day": "120.00",
+    "is_available": true
+  }
+},
+{
+  "model": "car_rental.car",
+  "pk": 9,
+  "fields": {
+    "brand": "Mercedes-Benz",
+    "model": "GLA",
+    "year": 2022,
+    "color": "White",
+    "description": "A compact luxury SUV with a refined interior and advanced technology.",
+    "car_type": "SUV",
+    "seat_capacity": 5,
+    "transmission_type": "AUTO",
+    "fuel_tank_capacity": 50,
+    "price_per_day": "110.00",
+    "is_available": false
+  }
+},
+{
+  "model": "car_rental.car",
+  "pk": 10,
+  "fields": {
+    "brand": "Jeep",
+    "model": "Wrangler",
+    "year": 2023,
+    "color": "Green",
+    "description": "A rugged and iconic off-road SUV with a removable top and doors.",
+    "car_type": "SUV",
+    "seat_capacity": 4,
+    "transmission_type": "MAN",
+    "fuel_tank_capacity": 70,
+    "price_per_day": "90.00",
+    "is_available": true
+  }
+},
+{
+  "model": "car_rental.car",
+  "pk": 11,
+  "fields": {
+    "brand": "Audi",
+    "model": "A4",
+    "year": 2021,
+    "color": "Blue",
+    "description": "A stylish and sophisticated sedan with a comfortable interior and advanced features.",
+    "car_type": "Sedan",
+    "seat_capacity": 5,
+    "transmission_type": "AUTO",
+    "fuel_tank_capacity": 54,
+    "price_per_day": "100.00",
+    "is_available": true
+  }
+},
+{
+  "model": "car_rental.car",
+  "pk": 12,
+  "fields": {
+    "brand": "Kia",
+    "model": "Sorento",
+    "year": 2022,
+    "color": "Black",
+    "description": "A spacious and versatile SUV with three rows of seating and a comfortable ride.",
+    "car_type": "SUV",
+    "seat_capacity": 7,
+    "transmission_type": "AUTO",
+    "fuel_tank_capacity": 71,
+    "price_per_day": "75.00",
+    "is_available": true
+  }
+},
+{
+  "model": "car_rental.car",
+  "pk": 13,
+  "fields": {
+    "brand": "Volkswagen",
+    "model": "Golf",
+    "year": 2023,
+    "color": "White",
+    "description": "A compact hatchback with a sporty design and excellent fuel efficiency.",
+    "car_type": "Hatch",
+    "seat_capacity": 5,
+    "transmission_type": "MAN",
+    "fuel_tank_capacity": 50,
+    "price_per_day": "55.00",
+    "is_available": true
+  }
+},
+{
+  "model": "car_rental.car",
+  "pk": 14,
+  "fields": {
+    "brand": "Hyundai",
+    "model": "Elantra",
+    "year": 2021,
+    "color": "Silver",
+    "description": "A reliable and affordable compact sedan with a comfortable interior.",
+    "car_type": "Sedan",
+    "seat_capacity": 5,
+    "transmission_type": "AUTO",
+    "fuel_tank_capacity": 53,
+    "price_per_day": "43.00",
+    "is_available": true
+  }
+},
+{
+  "model": "car_rental.car",
+  "pk": 15,
+  "fields": {
+    "brand": "Suzuki",
+    "model": "Vitara",
+    "year": 2019,
+    "color": "Dark Gray/Slate",
+    "description": "The Suzuki Vitara is a compact SUV that combines practicality with a touch of ruggedness. This model features Suzuki's reliable engineering with good ground clearance and lightweight construction for improved fuel efficiency. The Vitara offers a comfortable ride quality, responsive handling, and modern safety features like autonomous emergency braking and adaptive cruise control in higher trim levels.",
+    "car_type": "SUV",
+    "seat_capacity": 5,
+    "transmission_type": "AUTO",
+    "fuel_tank_capacity": 47,
+    "price_per_day": "45.00",
+    "is_available": true
+  }
+},
+{
+  "model": "car_rental.car",
+  "pk": 16,
+  "fields": {
+    "brand": "Volkswagen",
+    "model": "Touareg",
+    "year": 2020,
+    "color": "Brown/Bronze",
+    "description": "The Volkswagen Touareg is a premium midsize SUV that blends sophisticated styling with advanced technology and capable performance. This third-generation model features a plush, well-appointed interior with high-quality materials and the impressive Innovision Cockpit system. The Touareg delivers a comfortable yet engaging driving experience with its adaptive air suspension and powerful engine options.",
+    "car_type": "SUV",
+    "seat_capacity": 5,
+    "transmission_type": "AUTO",
+    "fuel_tank_capacity": 75,
+    "price_per_day": "85.00",
+    "is_available": true
+  }
+},
+{
+  "model": "car_rental.car",
+  "pk": 17,
+  "fields": {
+    "brand": "Suzuki",
+    "model": "SX4 S-Cross",
+    "year": 2019,
+    "color": "Dark Gray/Slate",
+    "description": "The Suzuki SX4 S-Cross is a practical compact crossover offering an excellent balance of space, features, and value. This model combines city-friendly dimensions with a versatile interior and Suzuki's reliable engineering. The S-Cross provides good fuel economy, comfortable ride quality, and light, predictable handling, making it an ideal vehicle for daily commuting and weekend adventures.",
+    "car_type": "SUV",
+    "seat_capacity": 5,
+    "transmission_type": "AUTO",
+    "fuel_tank_capacity": 47,
+    "price_per_day": "40.00",
+    "is_available": true
+  }
+},
+{
+  "model": "car_rental.car",
+  "pk": 18,
+  "fields": {
+    "brand": "Hyundai",
+    "model": "Santa Fe",
+    "year": 2021,
+    "color": "Black",
+    "description": "The Hyundai Santa Fe is a midsize SUV that offers a compelling combination of comfort, technology, and practicality. This fourth-generation model features a bold exterior design with Hyundai's signature cascading grille and distinctive split headlight arrangement. The Santa Fe provides a spacious, well-built interior with premium materials, comprehensive safety features, and efficient powertrain options including hybrid variants.",
+    "car_type": "SUV",
+    "seat_capacity": 5,
+    "transmission_type": "AUTO",
+    "fuel_tank_capacity": 67,
+    "price_per_day": "65.00",
+    "is_available": true
+  }
+},
+{
+  "model": "car_rental.car",
+  "pk": 19,
+  "fields": {
+    "brand": "MG",
+    "model": "ZS",
+    "year": 2021,
+    "color": "Light Blue/Teal",
+    "description": "The MG ZS is a stylish compact crossover that delivers excellent value with its combination of attractive design, practical interior, and comprehensive feature set. This model showcases MG's modern design language with a distinctive front grille and contemporary profile. The ZS offers good interior space, user-friendly technology, and a comfortable ride quality, making it an appealing option for budget-conscious families.",
+    "car_type": "SUV",
+    "seat_capacity": 5,
+    "transmission_type": "AUTO",
+    "fuel_tank_capacity": 48,
+    "price_per_day": "35.00",
+    "is_available": true
+  }
+},
+{
+  "model": "car_rental.car",
+  "pk": 20,
+  "fields": {
+    "brand": "MG",
+    "model": "HS",
+    "year": 2022,
+    "color": "Silver/White",
+    "description": "The MG HS is a midsize SUV that represents the brand's move upmarket with more premium features and refined design. This model features a distinctive exterior with an assertive front fascia and clean, European-inspired styling. The HS provides a spacious, well-appointed interior with soft-touch materials, a comprehensive infotainment system, and advanced driver assistance features that rival more expensive competitors.",
+    "car_type": "SUV",
+    "seat_capacity": 5,
+    "transmission_type": "AUTO",
+    "fuel_tank_capacity": 55,
+    "price_per_day": "50.00",
+    "is_available": true
+  }
+},
+{
+  "model": "car_rental.carimage",
+  "pk": 1,
+  "fields": {
+    "car": 1,
+    "image_url": "Car_images/car_1/car_1_0.png"
+  }
+},
+{
+  "model": "car_rental.carimage",
+  "pk": 2,
+  "fields": {
+    "car": 2,
+    "image_url": "Car_images/car_2/car_2_0.png"
+  }
+},
+{
+  "model": "car_rental.carimage",
+  "pk": 3,
+  "fields": {
+    "car": 3,
+    "image_url": "Car_images/car_3/car_3_0.jpg"
+  }
+},
+{
+  "model": "car_rental.carimage",
+  "pk": 4,
+  "fields": {
+    "car": 3,
+    "image_url": "Car_images/car_3/car_3_2.jpeg"
+  }
+},
+{
+  "model": "car_rental.carimage",
+  "pk": 5,
+  "fields": {
+    "car": 4,
+    "image_url": "Car_images/car_4/car_4_0.jpeg"
+  }
+},
+{
+  "model": "car_rental.carimage",
+  "pk": 6,
+  "fields": {
+    "car": 4,
+    "image_url": "Car_images/car_4/car_4_2.jpeg"
+  }
+},
+{
+  "model": "car_rental.carimage",
+  "pk": 7,
+  "fields": {
+    "car": 5,
+    "image_url": "Car_images/car_5/car_5_0.jpeg"
+  }
+},
+{
+  "model": "car_rental.carimage",
+  "pk": 8,
+  "fields": {
+    "car": 5,
+    "image_url": "Car_images/car_5/car_5_2.jpeg"
+  }
+},
+{
+  "model": "car_rental.carimage",
+  "pk": 9,
+  "fields": {
+    "car": 6,
+    "image_url": "Car_images/car_6/car_6_0.jpeg"
+  }
+},
+{
+  "model": "car_rental.carimage",
+  "pk": 10,
+  "fields": {
+    "car": 7,
+    "image_url": "Car_images/car_7/car_7_0.jpeg"
+  }
+},
+{
+  "model": "car_rental.carimage",
+  "pk": 11,
+  "fields": {
+    "car": 8,
+    "image_url": "Car_images/car_8/car_8_0.jpeg"
+  }
+},
+{
+  "model": "car_rental.carimage",
+  "pk": 12,
+  "fields": {
+    "car": 9,
+    "image_url": "Car_images/car_9/car_9_0.jpeg"
+  }
+},
+{
+  "model": "car_rental.carimage",
+  "pk": 13,
+  "fields": {
+    "car": 10,
+    "image_url": "Car_images/car_10/car_10_0.jpeg"
+  }
+},
+{
+  "model": "car_rental.carimage",
+  "pk": 14,
+  "fields": {
+    "car": 11,
+    "image_url": "Car_images/car_11/car_11_0.jpeg"
+  }
+},
+{
+  "model": "car_rental.carimage",
+  "pk": 15,
+  "fields": {
+    "car": 12,
+    "image_url": "Car_images/car_12/car_12_0.jpeg"
+  }
+},
+{
+  "model": "car_rental.carimage",
+  "pk": 16,
+  "fields": {
+    "car": 13,
+    "image_url": "Car_images/car_13/car_13_0.jpeg"
+  }
+},
+{
+  "model": "car_rental.carimage",
+  "pk": 17,
+  "fields": {
+    "car": 14,
+    "image_url": "Car_images/car_14/car_14_0.jpeg"
+  }
+},
+{
+  "model": "car_rental.carimage",
+  "pk": 18,
+  "fields": {
+    "car": 15,
+    "image_url": "Car_images/car_15/car_15_0.jpeg"
+  }
+},
+{
+  "model": "car_rental.carimage",
+  "pk": 19,
+  "fields": {
+    "car": 18,
+    "image_url": "Car_images/car_18/car_18_0.jpeg"
+  }
+},
+{
+  "model": "car_rental.carimage",
+  "pk": 20,
+  "fields": {
+    "car": 16,
+    "image_url": "Car_images/car_16/car_16_0.jpeg"
+  }
+},
+{
+  "model": "car_rental.carimage",
+  "pk": 21,
+  "fields": {
+    "car": 17,
+    "image_url": "Car_images/car_17/car_17_0.jpeg"
+  }
+},
+{
+  "model": "car_rental.carimage",
+  "pk": 22,
+  "fields": {
+    "car": 19,
+    "image_url": "Car_images/car_19/car_19_0.jpeg"
+  }
+},
+{
+  "model": "car_rental.carimage",
+  "pk": 23,
+  "fields": {
+    "car": 20,
+    "image_url": "Car_images/car_20/car_20_0.jpeg"
+  }
+},
+{
+  "model": "car_rental.booking",
+  "pk": 1,
+  "fields": {
+    "rented_car": 5,
+    "user": 2,
+    "pickup_location": "Lagosl",
+    "dropoff_location": "Lagos",
+    "dropoff_at": "2025-03-09T18:00:00Z",
+    "pickup_at": "2025-03-11T12:00:00Z",
+    "created_at": "2025-03-09T16:49:26.381Z"
+  }
+},
+{
+  "model": "car_rental.review",
+  "pk": 2,
+  "fields": {
+    "rented_car": 5,
+    "user": 2,
+    "rating": 4.0,
+    "comment": "Nice Truck",
+    "created_at": "2025-03-09T16:49:54.896Z"
+  }
+}
+]
