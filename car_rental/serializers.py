@@ -3,6 +3,11 @@ from django.conf import settings
 from .models import *
 from datetime import datetime
 from django.utils import timezone
+from django.contrib.auth import get_user_model
+from djoser.serializers import UserCreateSerializer, UserSerializer
+
+
+User = get_user_model()
 
 
 class ReviewSerializer(serializers.ModelSerializer):
@@ -105,9 +110,13 @@ class BookingSerializer(serializers.ModelSerializer):
         pickup_date = data.pop("pickup_date", None)
 
         if dropoff_date and dropoff_time:
-            data["dropoff_at"] = timezone.make_aware(datetime.combine(dropoff_date, dropoff_time))
+            data["dropoff_at"] = timezone.make_aware(
+                datetime.combine(dropoff_date, dropoff_time)
+            )
         if pickup_date and pickup_time:
-            data["pickup_at"] = timezone.make_aware(datetime.combine(pickup_date, pickup_time))
+            data["pickup_at"] = timezone.make_aware(
+                datetime.combine(pickup_date, pickup_time)
+            )
 
         return data
 
@@ -120,7 +129,30 @@ class BookingSerializer(serializers.ModelSerializer):
         return super().update(instance, validated_data)
 
 
-class UserSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = settings.AUTH_USER_MODEL
-        fields = "__all__"
+class MorentUserCreateSerializer(UserCreateSerializer):
+    class Meta(UserCreateSerializer.Meta):
+        model = User
+        fields = (
+            "id",
+            "email",
+            "first_name",
+            "last_name",
+            "password",
+            "profile_pic",
+            "job_title",
+            "company",
+        )
+
+
+class MorentUserSerializer(UserSerializer):
+    class Meta(UserSerializer.Meta):
+        model = User
+        fields = (
+            "id",
+            "email",
+            "first_name",
+            "last_name",
+            "profile_pic",
+            "job_title",
+            "company",
+        )

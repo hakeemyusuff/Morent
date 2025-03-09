@@ -14,14 +14,36 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
+
 from django.contrib import admin
 from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
+from rest_framework_simplejwt.views import (
+    TokenObtainPairView,
+    TokenRefreshView,
+    TokenBlacklistView,
+)
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('morent/v1/', include("car_rental.urls"))
+    path("admin/", admin.site.urls),
+    path("morent/v1/", include("car_rental.urls")),
+    path("morent/v1/auth/", include("djoser.urls")),
+    path("morent/v1/auth/", include("djoser.urls.jwt")),
+    # path(
+    #     "morent/v1/auth/token/",
+    #     TokenObtainPairView.as_view(),
+    #     name="token_obtain_pair",
+    # ),
+    # path(
+    #     "morent/v1/auth/token/refresh/",
+    #     TokenRefreshView.as_view(),
+    #     name="token_refresh",
+    # ),
+]
+
+urlpatterns += [
+    path("morent/v1/auth/jwt/blacklist", TokenBlacklistView.as_view(), name="token_blacklist")
 ]
 
 if settings.DEBUG:
