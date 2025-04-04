@@ -130,6 +130,22 @@ class BookingSerializer(serializers.ModelSerializer):
 
 
 class MorentUserCreateSerializer(UserCreateSerializer):
+    re_password = serializers.CharField(style={"input_type": "password"}, write_only=True)
+
+    def validate(self, attrs):
+        password = attrs["password"]
+        re_password = attrs["re_password"]
+        
+        if not password == re_password:
+            return serializers.ValidationError("Password do not match.")
+        
+        return attrs
+        
+        
+    def create(self, validated_data):
+        validated_data.pop("re_password")
+        return super().create(validated_data)
+
     class Meta(UserCreateSerializer.Meta):
         model = User
         fields = (
@@ -138,6 +154,7 @@ class MorentUserCreateSerializer(UserCreateSerializer):
             "first_name",
             "last_name",
             "password",
+            "re_password",
             "profile_pic",
             "job_title",
             "company",
